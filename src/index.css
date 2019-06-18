@@ -1,0 +1,39 @@
+/* Bootstrap */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+/* Fontawesome */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main .side__bar {
+    display: flex;
+    flex: 0 0 250px;
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid #f5f5f5;
+}
+
+main .container-fluid {
+    flex: 1 1 auto;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+footer {
+    background-color: #f5f5f5;
+}

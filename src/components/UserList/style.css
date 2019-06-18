@@ -1,0 +1,17 @@
+.user__list {
+    padding: 1rem;
+}
+
+.user__item {
+    cursor: pointer;
+}
+
+.user__item:hover {
+    color: #007bff;
+}
+
+.user__item img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
